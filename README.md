@@ -9,18 +9,23 @@ Created during the [AngularJS hackathon on Sand Hill Road](http://www.meetup.com
 Install `virtualenv` using your platform's package manager
 
 Create a virtualenv for the app's dependencies:
+
     virtualenv flask
 
 Install flask to the virtualenv
+
     flask/bin/pip install flask
 
 Install pymongo
+
     flask/bin/pip install pymongo
 
 Add execute permission to the application file
+
     chmod +x app.py
 
 Run the app
+
     ./app.py
 
 Test the API endpoint at http://localhost:5000/bitcoin-arbitrage/api/v1.0/opportunities .
