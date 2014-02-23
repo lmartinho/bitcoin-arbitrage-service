@@ -1,6 +1,6 @@
 # bitcoin-arbitrage-service - RESTful API for @maxme's bitcoin-arbitrage 
 
-Just a simple Flask app to expose a queue of current opportunities detected by [bitcoin-arbitrage](http://github.com/maxme/bitcoin-arbitrage), running the custom Queuer observer.
+Just a simple Flask app to expose a queue of current opportunities detected by [bitcoin-arbitrage](http://github.com/maxme/bitcoin-arbitrage), running the custom Queuer observer from the [@lmartinho fork](https://github.com/lmartinho/bitcoin-arbitrage).
 
 Created during the [AngularJS hackathon on Sand Hill Road](http://www.meetup.com/AngularJS-Silicon-Valley/events/166270732). Probably not useful at this stage.
 
@@ -28,10 +28,8 @@ Run the app
 
     ./app.py
 
-Test the API endpoint at http://localhost:5000/bitcoin-arbitrage/api/v1.0/opportunities .
+Test the [local API endpoint](http://localhost:5000/bitcoin-arbitrage/api/v1.0/opportunities).
 You should get a map with an empty array in the `opportunities` key.
-
-    cp arbitrage/config.py-example arbitrage/config.py
 
 # LICENSE
 
