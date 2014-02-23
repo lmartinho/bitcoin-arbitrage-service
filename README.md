@@ -4,6 +4,12 @@ Just a simple Flask app to expose a queue of current opportunities detected by [
 
 Created during the [AngularJS hackathon on Sand Hill Road](http://www.meetup.com/AngularJS-Silicon-Valley/events/166270732). Probably not useful at this stage.
 
+# System
+
+Works together with:
+* https://github.com/lmartinho/bitcoin-arbitrage
+* https://github.com/Sjors/ng-bitcoin-arbitrage
+
 # Installation And Configuration
 
 Install `virtualenv` using your platform's package manager
