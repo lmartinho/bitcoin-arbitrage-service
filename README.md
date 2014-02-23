@@ -1,6 +1,6 @@
-# bitcoin-arbitrage-service - RESTful API for https://github.com/maxme/bitcoin-arbitrage (opportunity detector)
+# bitcoin-arbitrage-service - RESTful API for @maxme's bitcoin-arbitrage 
 
-Just a simple Flask app to expose a queue of current opportunities detected by bitcoin-arbitrage, running the custom Queuer observer.
+Just a simple Flask app to expose a queue of current opportunities detected by [bitcoin-arbitrage](http://github.com/maxme/bitcoin-arbitrage), running the custom Queuer observer.
 
 Created during the [AngularJS hackathon on Sand Hill Road](http://www.meetup.com/AngularJS-Silicon-Valley/events/166270732). Probably not useful at this stage.
 
